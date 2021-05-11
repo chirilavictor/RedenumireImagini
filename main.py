@@ -17,5 +17,6 @@ for folder, dir, files in os.walk(folder_mama):
         nume_fisier = nume_fisier_intreg[0]
         #print(nume_fisier)
         new_name = '{} {}.jpg'.format(nume_fisier, nume_grafica)
-        #print(new_name)
+        print(new_name)
         #os.rename(file, new_name)
+
